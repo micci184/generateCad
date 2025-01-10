@@ -1,0 +1,34 @@
+# 1. shopディレクトリの除外
+/shops/
+
+# 2. macOS特有のファイル
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+._*
+
+# 3. Pythonの不要ファイル
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env/
+.venv/
+*.env
+*.venv
+Pipfile.lock
+poetry.lock
+.ipynb_checkpoints
+*.log
+
+# 4. Pythonのビルド関連
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# 5. アプリ系
+
+page*
